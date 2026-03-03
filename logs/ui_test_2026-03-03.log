@@ -1,0 +1,81 @@
+2026-03-03 14:29:38 [INFO] [root] 日志系统初始化完成: level=INFO, to_console=True, to_file=True, file_pattern=logs/ui_test_{date}.log
+2026-03-03 14:29:38 [INFO] [conftest] [conftest] 即将创建 driver，platform='web'
+2026-03-03 14:29:38 [INFO] [core.driver_factory] [DriverFactory] 当前平台: 'web'
+2026-03-03 14:29:38 [INFO] [core.driver_manager] [DriverManager] 使用指定 chromedriver: C:\Users\Administrator\PycharmProjects\ui_auto_test\bin\drivers\chromedriver.exe
+2026-03-03 14:29:39 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-03 14:29:39 [INFO] [LoginPage] 打开登录弹窗
+2026-03-03 14:29:39 [INFO] [LoginPage] 打开首页
+2026-03-03 14:29:39 [INFO] [LoginPage] 打开 URL: http://10.1.10.12:31180/ai/
+2026-03-03 14:29:45 [INFO] [LoginPage] 点击登录入口按钮
+2026-03-03 14:29:48 [INFO] [LoginPage] 点击元素: ('xpath', '/html/body/div[7]/div/div/div/div/div[2]/div/div[1]/div[2]'), timeout=10
+2026-03-03 14:29:48 [INFO] [LoginPage] 切换到账号登录标签
+2026-03-03 14:29:49 [INFO] [LoginPage] 输入用户名密码: 17111111114
+2026-03-03 14:29:49 [INFO] [LoginPage] 输入文本: locator=('xpath', '/html/body/div[7]/div/div/div/div/div[2]/div/form/div[1]/div/div/div/input'), text='17111111114'
+2026-03-03 14:29:50 [INFO] [LoginPage] 输入文本: locator=('xpath', '/html/body/div[7]/div/div/div/div/div[2]/div/form/div[2]/div/div/div/input'), text='caotuli8'
+2026-03-03 14:29:50 [INFO] [LoginPage] 点击元素: ('xpath', '/html/body/div[7]/div/div/div/div/div[2]/div/label/span[1]/span'), timeout=10
+2026-03-03 14:29:50 [INFO] [LoginPage] 勾选同意协议
+2026-03-03 14:29:50 [INFO] [LoginPage] 点击登录按钮
+2026-03-03 14:29:50 [INFO] [LoginPage] 点击元素: ('xpath', '/html/body/div[7]/div/div/div/div/div[2]/div/button'), timeout=10
+2026-03-03 14:29:52 [INFO] [LoginPage] 开始处理滑动验证码
+2026-03-03 14:29:52 [INFO] [utils.slider_solver] [DEBUG] edge_match_score = 0.22533780336380005
+2026-03-03 14:29:52 [INFO] [utils.slider_solver] 计算得到原始偏移量: 512px
+2026-03-03 14:29:53 [INFO] [utils.slider_solver] 快速滑动完成：移动距离 313px
+2026-03-03 14:29:54 [INFO] [LoginPage] ✅ 验证码解决成功
+2026-03-03 14:30:09 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-03 14:30:09 [INFO] [LoginPage] 打开登录弹窗
+2026-03-03 14:30:23 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+
+2026-03-03 14:30:23 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260303_143023.png
+2026-03-03 14:30:23 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+
+2026-03-03 14:30:23 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260303_143023.png
+2026-03-03 14:30:23 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-03 14:30:23 [INFO] [LoginPage] 打开登录弹窗
+2026-03-03 14:30:37 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+
+2026-03-03 14:30:37 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260303_143037.png
+2026-03-03 14:30:37 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+
+2026-03-03 14:30:37 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260303_143037.png
+2026-03-03 14:30:37 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-03 14:30:37 [INFO] [LoginPage] 打开登录弹窗
+2026-03-03 14:30:51 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+
+2026-03-03 14:30:51 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260303_143051.png
+2026-03-03 14:30:51 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+
+2026-03-03 14:30:51 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260303_143051.png
+2026-03-03 14:30:51 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-03 14:30:51 [INFO] [LoginPage] 打开登录弹窗
+2026-03-03 14:31:04 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+
+2026-03-03 14:31:05 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260303_143104.png
+2026-03-03 14:31:05 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+
+2026-03-03 14:31:05 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260303_143105.png
+2026-03-03 14:31:05 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-03 14:31:05 [INFO] [LoginPage] 开始登录流程: 17111111114
+2026-03-03 14:31:05 [INFO] [LoginPage] 打开登录弹窗
+2026-03-03 14:31:18 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+
+2026-03-03 14:31:18 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260303_143118.png
+2026-03-03 14:31:19 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+
+2026-03-03 14:31:19 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260303_143119.png
+2026-03-03 14:31:19 [ERROR] [LoginPage] 登录流程异常: Message: 
+
+2026-03-03 14:31:19 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_error_20260303_143119.png
+2026-03-03 14:31:19 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-03 14:31:19 [INFO] [LoginPage] 打开登录弹窗
+2026-03-03 14:31:33 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+
+2026-03-03 14:31:33 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260303_143133.png
+2026-03-03 14:31:33 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+
+2026-03-03 14:31:33 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260303_143133.png
+2026-03-03 14:31:33 [INFO] [conftest] [conftest] 测试结束，准备退出 driver
+2026-03-03 14:31:35 [INFO] [core.driver_factory] [DriverFactory] Driver 已正常退出
+2026-03-03 14:35:15 [INFO] [root] 日志系统初始化完成: level=INFO, to_console=True, to_file=True, file_pattern=logs/ui_test_{date}.log
+2026-03-03 14:35:15 [INFO] [core.driver_factory] [DriverFactory] 当前平台: 'web'
+2026-03-03 14:35:15 [INFO] [core.driver_manager] [DriverManager] 使用指定 chromedriver: C:\Users\Administrator\PycharmProjects\ui_auto_test\bin\drivers\chromedriver.exe
+2026-03-03 14:35:19 [INFO] [core.driver_factory] [DriverFactory] Driver 已正常退出

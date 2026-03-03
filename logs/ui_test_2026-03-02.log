@@ -1,0 +1,335 @@
+2026-03-02 15:40:49 [INFO] [root] 日志系统初始化完成: level=INFO, to_console=True, to_file=True, file_pattern=logs/ui_test_{date}.log
+2026-03-02 15:40:49 [INFO] [conftest] [conftest] 即将创建 driver，platform='web'
+2026-03-02 15:40:49 [INFO] [core.driver_factory] [DriverFactory] 当前平台: 'web'
+2026-03-02 15:40:49 [INFO] [core.driver_manager] [DriverManager] 使用指定 chromedriver: C:\Users\Administrator\PycharmProjects\ui_auto_test\bin\drivers\chromedriver.exe
+2026-03-02 15:40:50 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-02 15:40:50 [INFO] [LoginPage] 打开登录弹窗
+2026-03-02 15:40:50 [INFO] [LoginPage] 打开首页
+2026-03-02 15:40:50 [INFO] [LoginPage] 打开 URL: http://192.168.1.20:31180/ai/
+2026-03-02 15:41:21 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-02 15:41:21 [INFO] [LoginPage] 打开登录弹窗
+2026-03-02 15:41:34 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff782083b05
+	0x7ff782083b60
+	0x7ff781e2126d
+	0x7ff781e7c8fe
+	0x7ff781e7cc0c
+	0x7ff781ecd7a7
+	0x7ff781eca30c
+	0x7ff781e6d10c
+	0x7ff781e6e053
+	0x7ff78235b0e0
+	0x7ff78235549d
+	0x7ff78237666a
+	0x7ff78209f925
+	0x7ff7820a838c
+	0x7ff78208cdd4
+	0x7ff78208cf86
+	0x7ff7820732b7
+	0x7ffa46707344
+	0x7ffa46f426b1
+
+2026-03-02 15:41:34 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260302_154134.png
+2026-03-02 15:41:34 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff782083b05
+	0x7ff782083b60
+	0x7ff781e2126d
+	0x7ff781e7c8fe
+	0x7ff781e7cc0c
+	0x7ff781ecd7a7
+	0x7ff781eca30c
+	0x7ff781e6d10c
+	0x7ff781e6e053
+	0x7ff78235b0e0
+	0x7ff78235549d
+	0x7ff78237666a
+	0x7ff78209f925
+	0x7ff7820a838c
+	0x7ff78208cdd4
+	0x7ff78208cf86
+	0x7ff7820732b7
+	0x7ffa46707344
+	0x7ffa46f426b1
+
+2026-03-02 15:41:34 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260302_154134.png
+2026-03-02 15:41:34 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-02 15:41:34 [INFO] [LoginPage] 打开登录弹窗
+2026-03-02 15:41:48 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff782083b05
+	0x7ff782083b60
+	0x7ff781e2126d
+	0x7ff781e7c8fe
+	0x7ff781e7cc0c
+	0x7ff781ecd7a7
+	0x7ff781eca30c
+	0x7ff781e6d10c
+	0x7ff781e6e053
+	0x7ff78235b0e0
+	0x7ff78235549d
+	0x7ff78237666a
+	0x7ff78209f925
+	0x7ff7820a838c
+	0x7ff78208cdd4
+	0x7ff78208cf86
+	0x7ff7820732b7
+	0x7ffa46707344
+	0x7ffa46f426b1
+
+2026-03-02 15:41:48 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260302_154148.png
+2026-03-02 15:41:48 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff782083b05
+	0x7ff782083b60
+	0x7ff781e2126d
+	0x7ff781e7c8fe
+	0x7ff781e7cc0c
+	0x7ff781ecd7a7
+	0x7ff781eca30c
+	0x7ff781e6d10c
+	0x7ff781e6e053
+	0x7ff78235b0e0
+	0x7ff78235549d
+	0x7ff78237666a
+	0x7ff78209f925
+	0x7ff7820a838c
+	0x7ff78208cdd4
+	0x7ff78208cf86
+	0x7ff7820732b7
+	0x7ffa46707344
+	0x7ffa46f426b1
+
+2026-03-02 15:41:48 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260302_154148.png
+2026-03-02 15:41:48 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-02 15:41:48 [INFO] [LoginPage] 打开登录弹窗
+2026-03-02 15:42:02 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff782083b05
+	0x7ff782083b60
+	0x7ff781e2126d
+	0x7ff781e7c8fe
+	0x7ff781e7cc0c
+	0x7ff781ecd7a7
+	0x7ff781eca30c
+	0x7ff781e6d10c
+	0x7ff781e6e053
+	0x7ff78235b0e0
+	0x7ff78235549d
+	0x7ff78237666a
+	0x7ff78209f925
+	0x7ff7820a838c
+	0x7ff78208cdd4
+	0x7ff78208cf86
+	0x7ff7820732b7
+	0x7ffa46707344
+	0x7ffa46f426b1
+
+2026-03-02 15:42:02 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260302_154202.png
+2026-03-02 15:42:02 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff782083b05
+	0x7ff782083b60
+	0x7ff781e2126d
+	0x7ff781e7c8fe
+	0x7ff781e7cc0c
+	0x7ff781ecd7a7
+	0x7ff781eca30c
+	0x7ff781e6d10c
+	0x7ff781e6e053
+	0x7ff78235b0e0
+	0x7ff78235549d
+	0x7ff78237666a
+	0x7ff78209f925
+	0x7ff7820a838c
+	0x7ff78208cdd4
+	0x7ff78208cf86
+	0x7ff7820732b7
+	0x7ffa46707344
+	0x7ffa46f426b1
+
+2026-03-02 15:42:02 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260302_154202.png
+2026-03-02 15:42:02 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-02 15:42:02 [INFO] [LoginPage] 打开登录弹窗
+2026-03-02 15:42:16 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff782083b05
+	0x7ff782083b60
+	0x7ff781e2126d
+	0x7ff781e7c8fe
+	0x7ff781e7cc0c
+	0x7ff781ecd7a7
+	0x7ff781eca30c
+	0x7ff781e6d10c
+	0x7ff781e6e053
+	0x7ff78235b0e0
+	0x7ff78235549d
+	0x7ff78237666a
+	0x7ff78209f925
+	0x7ff7820a838c
+	0x7ff78208cdd4
+	0x7ff78208cf86
+	0x7ff7820732b7
+	0x7ffa46707344
+	0x7ffa46f426b1
+
+2026-03-02 15:42:16 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260302_154216.png
+2026-03-02 15:42:16 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff782083b05
+	0x7ff782083b60
+	0x7ff781e2126d
+	0x7ff781e7c8fe
+	0x7ff781e7cc0c
+	0x7ff781ecd7a7
+	0x7ff781eca30c
+	0x7ff781e6d10c
+	0x7ff781e6e053
+	0x7ff78235b0e0
+	0x7ff78235549d
+	0x7ff78237666a
+	0x7ff78209f925
+	0x7ff7820a838c
+	0x7ff78208cdd4
+	0x7ff78208cf86
+	0x7ff7820732b7
+	0x7ffa46707344
+	0x7ffa46f426b1
+
+2026-03-02 15:42:16 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260302_154216.png
+2026-03-02 15:42:16 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-02 15:42:16 [INFO] [LoginPage] 开始登录流程: 17111111114
+2026-03-02 15:42:16 [INFO] [LoginPage] 打开登录弹窗
+2026-03-02 15:42:30 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff782083b05
+	0x7ff782083b60
+	0x7ff781e2126d
+	0x7ff781e7c8fe
+	0x7ff781e7cc0c
+	0x7ff781ecd7a7
+	0x7ff781eca30c
+	0x7ff781e6d10c
+	0x7ff781e6e053
+	0x7ff78235b0e0
+	0x7ff78235549d
+	0x7ff78237666a
+	0x7ff78209f925
+	0x7ff7820a838c
+	0x7ff78208cdd4
+	0x7ff78208cf86
+	0x7ff7820732b7
+	0x7ffa46707344
+	0x7ffa46f426b1
+
+2026-03-02 15:42:30 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260302_154230.png
+2026-03-02 15:42:30 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff782083b05
+	0x7ff782083b60
+	0x7ff781e2126d
+	0x7ff781e7c8fe
+	0x7ff781e7cc0c
+	0x7ff781ecd7a7
+	0x7ff781eca30c
+	0x7ff781e6d10c
+	0x7ff781e6e053
+	0x7ff78235b0e0
+	0x7ff78235549d
+	0x7ff78237666a
+	0x7ff78209f925
+	0x7ff7820a838c
+	0x7ff78208cdd4
+	0x7ff78208cf86
+	0x7ff7820732b7
+	0x7ffa46707344
+	0x7ffa46f426b1
+
+2026-03-02 15:42:30 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260302_154230.png
+2026-03-02 15:42:30 [ERROR] [LoginPage] 登录流程异常: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff782083b05
+	0x7ff782083b60
+	0x7ff781e2126d
+	0x7ff781e7c8fe
+	0x7ff781e7cc0c
+	0x7ff781ecd7a7
+	0x7ff781eca30c
+	0x7ff781e6d10c
+	0x7ff781e6e053
+	0x7ff78235b0e0
+	0x7ff78235549d
+	0x7ff78237666a
+	0x7ff78209f925
+	0x7ff7820a838c
+	0x7ff78208cdd4
+	0x7ff78208cf86
+	0x7ff7820732b7
+	0x7ffa46707344
+	0x7ffa46f426b1
+
+2026-03-02 15:42:30 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_error_20260302_154230.png
+2026-03-02 15:42:30 [INFO] [LoginPage] LoginPage 初始化完成
+2026-03-02 15:42:30 [INFO] [LoginPage] 打开登录弹窗
+2026-03-02 15:42:44 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff782083b05
+	0x7ff782083b60
+	0x7ff781e2126d
+	0x7ff781e7c8fe
+	0x7ff781e7cc0c
+	0x7ff781ecd7a7
+	0x7ff781eca30c
+	0x7ff781e6d10c
+	0x7ff781e6e053
+	0x7ff78235b0e0
+	0x7ff78235549d
+	0x7ff78237666a
+	0x7ff78209f925
+	0x7ff7820a838c
+	0x7ff78208cdd4
+	0x7ff78208cf86
+	0x7ff7820732b7
+	0x7ffa46707344
+	0x7ffa46f426b1
+
+2026-03-02 15:42:44 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260302_154244.png
+2026-03-02 15:42:44 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff782083b05
+	0x7ff782083b60
+	0x7ff781e2126d
+	0x7ff781e7c8fe
+	0x7ff781e7cc0c
+	0x7ff781ecd7a7
+	0x7ff781eca30c
+	0x7ff781e6d10c
+	0x7ff781e6e053
+	0x7ff78235b0e0
+	0x7ff78235549d
+	0x7ff78237666a
+	0x7ff78209f925
+	0x7ff7820a838c
+	0x7ff78208cdd4
+	0x7ff78208cf86
+	0x7ff7820732b7
+	0x7ffa46707344
+	0x7ffa46f426b1
+
+2026-03-02 15:42:44 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260302_154244.png
+2026-03-02 15:42:44 [INFO] [conftest] [conftest] 测试结束，准备退出 driver
+2026-03-02 15:42:46 [INFO] [core.driver_factory] [DriverFactory] Driver 已正常退出

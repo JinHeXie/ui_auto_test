@@ -1,0 +1,13 @@
+test:
+  appium_server: "http://127.0.0.1:4723/wd/hub"
+  common_capabilities:
+    platformName: "iOS"
+    automationName: "XCUITest"
+    noReset: true
+    newCommandTimeout: 300
+
+  default_device:
+    deviceName: "iPhone 15"
+    udid: "00008030-000E111C1130002E"
+    platformVersion: "17.0"
+    bundleId: "com.example.ios"

@@ -1,0 +1,38 @@
+# config/web_env.yaml
+dev:
+  base_url: "https://dev.example.com"
+  browser: "chrome"
+  implicit_wait: 5
+  page_load_timeout: 30
+  remote: false
+  remote_url: ""
+
+  # ✅ Windows: 放项目里（不写 .exe 也行）
+  driver_path: "bin/drivers/chromedriver"
+  headless: false
+  window_size: "1920,1080"
+
+test:
+  base_url: "http://10.1.10.12:31180/ai/"
+  browser: "chrome"
+  implicit_wait: 5
+  page_load_timeout: 30
+  remote: false
+  remote_url: ""
+
+  driver_path: "bin/drivers/chromedriver"
+  headless: true
+  window_size: "1920,1080"
+
+prod:
+  base_url: "https://www.example.com"
+  browser: "chrome"
+  implicit_wait: 5
+  page_load_timeout: 30
+  remote: true
+  remote_url: "http://selenium-grid.example.com:4444/wd/hub"
+
+  driver_path: ""
+  headless: true
+  window_size: "1920,1080"
+

@@ -1,0 +1,19 @@
+# 测试框架
+pytest==8.4.0
+pytest-xdist==3.6.1        # 并发执行（可选）
+allure-pytest==2.13.5      # Allure 报告集成
+
+# Web 自动化
+selenium==4.31.0
+
+# App 自动化
+Appium-Python-Client==4.0.0
+
+# 配置 & 数据驱动
+PyYAML==6.0.2              # 读写 YAML 配置 & 测试数据
+
+# 日志（可选，可以用内置 logging）
+loguru==0.7.2              # 如果你以后想换成 loguru 也可以，这里暂时不强依赖
+
+# 工具类（按需）
+requests==2.32.3           # 如果需要配合接口

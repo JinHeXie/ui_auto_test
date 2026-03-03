@@ -1,0 +1,61 @@
+ui_auto_test
+│  conftest.py
+│  demo_run_web.py
+│  project.txt
+│  pytest.ini
+│  README.md
+│  requirements.txt
+│  
+├─bin
+│  └─drivers
+│          chromedriver.exe
+│          
+├─config
+│      android_env.yaml
+│      ios_env.yaml
+│      settings.yaml
+│      web_env.yaml
+│      
+├─core
+│  │  app_base_page.py
+│  │  base_page.py
+│  │  config_loader.py
+│  │  driver_factory.py
+│  │  driver_manager.py
+│  │  logger.py
+│  │  web_base_page.py
+│  │  __init__.py
+│          
+├─data
+│  └─web
+│          login_data.yaml
+│          
+├─logs
+│      ui_test_2025-12-09.log
+│      ui_test_2025-12-12.log
+│      ui_test_2025-12-31.log
+│      ui_test_2026-01-04.log
+│      
+├─pages
+│  │  __init__.py
+│  │  
+│  ├─app
+│  │  └─android
+│  │          login_page.py
+│  │          
+│  ├─web
+│  │  │  login_page.py
+│          
+├─reports
+│  └─allure_results
+├─tests
+│  │  __init__.py
+│  │  
+│  └─web
+│          test_login_web.py
+│          
+├─utils
+│  │  data_loader.py
+│  │  fetch_chromedriver.py
+│  │  path_helper.py
+│  │  __init__.py

@@ -1,0 +1,2058 @@
+2026-02-02 15:54:06 [INFO] [root] 日志系统初始化完成: level=INFO, to_console=True, to_file=True, file_pattern=logs/ui_test_{date}.log
+2026-02-02 15:54:33 [INFO] [root] 日志系统初始化完成: level=INFO, to_console=True, to_file=True, file_pattern=logs/ui_test_{date}.log
+2026-02-02 15:54:34 [INFO] [conftest] [conftest] 即将创建 driver，platform='web'
+2026-02-02 15:54:34 [INFO] [core.driver_factory] [DriverFactory] 当前平台: 'web'
+2026-02-02 15:54:34 [INFO] [core.driver_manager] [DriverManager] 使用指定 chromedriver: C:\Users\Administrator\PycharmProjects\ui_auto_test\bin\drivers\chromedriver.exe
+2026-02-02 15:54:35 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:54:35 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:54:35 [INFO] [LoginPage] 打开首页
+2026-02-02 15:54:35 [INFO] [LoginPage] 打开 URL: http://192.168.1.20:31180/ai/
+2026-02-02 15:54:38 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:54:39 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (719, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:39 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155439.png
+2026-02-02 15:54:39 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (719, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:39 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155439.png
+2026-02-02 15:54:39 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:54:39 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:54:39 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:54:40 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:41 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155440.png
+2026-02-02 15:54:41 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:41 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155441.png
+2026-02-02 15:54:41 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:54:41 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:54:41 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:54:42 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:42 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155442.png
+2026-02-02 15:54:42 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:42 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155442.png
+2026-02-02 15:54:42 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:54:42 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:54:42 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:54:43 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:43 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155443.png
+2026-02-02 15:54:44 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:44 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155444.png
+2026-02-02 15:54:44 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:54:44 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:54:44 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:54:45 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:45 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155445.png
+2026-02-02 15:54:45 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:45 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155445.png
+2026-02-02 15:54:45 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:54:45 [INFO] [LoginPage] 开始登录流程: 17111111114
+2026-02-02 15:54:45 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:54:45 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:54:46 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:46 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155446.png
+2026-02-02 15:54:47 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:47 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155447.png
+2026-02-02 15:54:47 [ERROR] [LoginPage] 登录流程异常: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:47 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_error_20260202_155447.png
+2026-02-02 15:54:47 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:54:47 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:54:47 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:54:48 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:48 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155448.png
+2026-02-02 15:54:48 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:54:48 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155448.png
+2026-02-02 15:54:49 [INFO] [conftest] [conftest] 测试结束，准备退出 driver
+2026-02-02 15:54:51 [INFO] [core.driver_factory] [DriverFactory] Driver 已正常退出
+2026-02-02 15:57:16 [INFO] [root] 日志系统初始化完成: level=INFO, to_console=True, to_file=True, file_pattern=logs/ui_test_{date}.log
+2026-02-02 15:57:47 [INFO] [root] 日志系统初始化完成: level=INFO, to_console=True, to_file=True, file_pattern=logs/ui_test_{date}.log
+2026-02-02 15:58:15 [INFO] [root] 日志系统初始化完成: level=INFO, to_console=True, to_file=True, file_pattern=logs/ui_test_{date}.log
+2026-02-02 15:58:15 [INFO] [conftest] [conftest] 即将创建 driver，platform='web'
+2026-02-02 15:58:15 [INFO] [core.driver_factory] [DriverFactory] 当前平台: 'web'
+2026-02-02 15:58:15 [INFO] [core.driver_manager] [DriverManager] 使用指定 chromedriver: C:\Users\Administrator\PycharmProjects\ui_auto_test\bin\drivers\chromedriver.exe
+2026-02-02 15:58:16 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:58:16 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:58:16 [INFO] [LoginPage] 打开首页
+2026-02-02 15:58:16 [INFO] [LoginPage] 打开 URL: http://192.168.1.20:31180/ai/
+2026-02-02 15:58:19 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:58:20 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (719, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:20 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155820.png
+2026-02-02 15:58:20 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (719, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:20 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155820.png
+2026-02-02 15:58:21 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:58:21 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:58:21 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:58:22 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:22 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155822.png
+2026-02-02 15:58:22 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:22 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155822.png
+2026-02-02 15:58:22 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:58:22 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:58:22 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:58:23 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:23 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155823.png
+2026-02-02 15:58:23 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:23 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155823.png
+2026-02-02 15:58:24 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:58:24 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:58:24 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:58:25 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:25 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155825.png
+2026-02-02 15:58:25 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:25 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155825.png
+2026-02-02 15:58:25 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:58:25 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:58:25 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:58:26 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:26 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155826.png
+2026-02-02 15:58:26 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:26 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155826.png
+2026-02-02 15:58:27 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:58:27 [INFO] [LoginPage] 开始登录流程: 17111111114
+2026-02-02 15:58:27 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:58:27 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:58:28 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:28 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155828.png
+2026-02-02 15:58:28 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:28 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155828.png
+2026-02-02 15:58:28 [ERROR] [LoginPage] 登录流程异常: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:28 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_error_20260202_155828.png
+2026-02-02 15:58:28 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 15:58:28 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 15:58:28 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 15:58:29 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:29 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_155829.png
+2026-02-02 15:58:30 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 15:58:30 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_155830.png
+2026-02-02 15:58:30 [INFO] [conftest] [conftest] 测试结束，准备退出 driver
+2026-02-02 15:58:32 [INFO] [core.driver_factory] [DriverFactory] Driver 已正常退出
+2026-02-02 16:00:08 [INFO] [root] 日志系统初始化完成: level=INFO, to_console=True, to_file=True, file_pattern=logs/ui_test_{date}.log
+2026-02-02 16:00:08 [INFO] [conftest] [conftest] 即将创建 driver，platform='web'
+2026-02-02 16:00:08 [INFO] [core.driver_factory] [DriverFactory] 当前平台: 'web'
+2026-02-02 16:00:08 [INFO] [core.driver_manager] [DriverManager] 使用指定 chromedriver: C:\Users\Administrator\PycharmProjects\ui_auto_test\bin\drivers\chromedriver.exe
+2026-02-02 16:00:09 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:00:09 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:00:09 [INFO] [LoginPage] 打开首页
+2026-02-02 16:00:09 [INFO] [LoginPage] 打开 URL: http://192.168.1.20:31180/ai/
+2026-02-02 16:00:12 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 16:00:13 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (719, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:13 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_160013.png
+2026-02-02 16:00:13 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (719, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:13 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_160013.png
+2026-02-02 16:00:13 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:00:13 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:00:13 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 16:00:14 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:14 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_160014.png
+2026-02-02 16:00:15 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:15 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_160015.png
+2026-02-02 16:00:15 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:00:15 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:00:15 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 16:00:16 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:16 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_160016.png
+2026-02-02 16:00:16 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:16 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_160016.png
+2026-02-02 16:00:16 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:00:16 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:00:16 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 16:00:17 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:17 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_160017.png
+2026-02-02 16:00:17 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:18 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_160017.png
+2026-02-02 16:00:18 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:00:18 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:00:18 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 16:00:19 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:19 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_160019.png
+2026-02-02 16:00:19 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:19 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_160019.png
+2026-02-02 16:00:19 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:00:19 [INFO] [LoginPage] 开始登录流程: 17111111114
+2026-02-02 16:00:19 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:00:19 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 16:00:20 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:20 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_160020.png
+2026-02-02 16:00:21 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:21 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_160021.png
+2026-02-02 16:00:21 [ERROR] [LoginPage] 登录流程异常: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:21 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_error_20260202_160021.png
+2026-02-02 16:00:21 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:00:21 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:00:21 [INFO] [LoginPage] 点击元素: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), timeout=10
+2026-02-02 16:00:22 [ERROR] [LoginPage] 点击元素失败: ('xpath', '//*[@id="outer-container"]/section/header/div[1]/div[2]/button'), 错误: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:22 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\click_failed_20260202_160022.png
+2026-02-02 16:00:22 [ERROR] [LoginPage] 点击登录入口失败: Message: element click intercepted: Element <button ariadisabled="false" type="button" class="el-button el-button--primary el-tooltip__trigger" style="margin-left:16px;" data-v-5f9d1ad5="">...</button> is not clickable at point (718, 32). Other element would receive the click: <div class="el-tabs__nav-scroll">...</div>
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef754e85
+	0x7ff6ef75259a
+	0x7ff6ef74f425
+	0x7ff6ef74e2c7
+	0x7ff6ef73f4e6
+	0x7ff6ef775e8a
+	0x7ff6ef73ed66
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:00:22 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_160022.png
+2026-02-02 16:00:23 [INFO] [conftest] [conftest] 测试结束，准备退出 driver
+2026-02-02 16:00:25 [INFO] [core.driver_factory] [DriverFactory] Driver 已正常退出
+2026-02-02 16:14:33 [INFO] [root] 日志系统初始化完成: level=INFO, to_console=True, to_file=True, file_pattern=logs/ui_test_{date}.log
+2026-02-02 16:14:34 [INFO] [conftest] [conftest] 即将创建 driver，platform='web'
+2026-02-02 16:14:34 [INFO] [core.driver_factory] [DriverFactory] 当前平台: 'web'
+2026-02-02 16:14:34 [INFO] [core.driver_manager] [DriverManager] 使用指定 chromedriver: C:\Users\Administrator\PycharmProjects\ui_auto_test\bin\drivers\chromedriver.exe
+2026-02-02 16:14:35 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:14:35 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:14:35 [INFO] [LoginPage] 打开首页
+2026-02-02 16:14:35 [INFO] [LoginPage] 打开 URL: http://192.168.1.20:31180/ai/
+2026-02-02 16:14:38 [ERROR] [LoginPage] 点击登录入口失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef6f91d1
+	0x7ff6ef6fc68e
+	0x7ff6ef79b70d
+	0x7ff6ef775e8a
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:14:38 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_161438.png
+2026-02-02 16:14:38 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:14:38 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:14:38 [ERROR] [LoginPage] 点击登录入口失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef6f91d1
+	0x7ff6ef6fc68e
+	0x7ff6ef79b70d
+	0x7ff6ef775e8a
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:14:38 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_161438.png
+2026-02-02 16:14:39 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:14:39 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:14:39 [ERROR] [LoginPage] 点击登录入口失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef6f91d1
+	0x7ff6ef6fc68e
+	0x7ff6ef79b70d
+	0x7ff6ef775e8a
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:14:39 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_161439.png
+2026-02-02 16:14:39 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:14:39 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:14:39 [ERROR] [LoginPage] 点击登录入口失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef6f91d1
+	0x7ff6ef6fc68e
+	0x7ff6ef79b70d
+	0x7ff6ef775e8a
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:14:39 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_161439.png
+2026-02-02 16:14:39 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:14:39 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:14:39 [ERROR] [LoginPage] 点击登录入口失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef6f91d1
+	0x7ff6ef6fc68e
+	0x7ff6ef79b70d
+	0x7ff6ef775e8a
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:14:39 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_161439.png
+2026-02-02 16:14:39 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:14:39 [INFO] [LoginPage] 开始登录流程: 17111111114
+2026-02-02 16:14:39 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:14:39 [ERROR] [LoginPage] 点击登录入口失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef6f91d1
+	0x7ff6ef6fc68e
+	0x7ff6ef79b70d
+	0x7ff6ef775e8a
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:14:40 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_161439.png
+2026-02-02 16:14:40 [ERROR] [LoginPage] 登录流程异常: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef6f91d1
+	0x7ff6ef6fc68e
+	0x7ff6ef79b70d
+	0x7ff6ef775e8a
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:14:40 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_error_20260202_161440.png
+2026-02-02 16:14:40 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:14:40 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:14:40 [ERROR] [LoginPage] 点击登录入口失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef6f91d1
+	0x7ff6ef6fc68e
+	0x7ff6ef79b70d
+	0x7ff6ef775e8a
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 16:14:40 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_161440.png
+2026-02-02 16:14:40 [INFO] [conftest] [conftest] 测试结束，准备退出 driver
+2026-02-02 16:14:42 [INFO] [core.driver_factory] [DriverFactory] Driver 已正常退出
+2026-02-02 16:44:16 [INFO] [root] 日志系统初始化完成: level=INFO, to_console=True, to_file=True, file_pattern=logs/ui_test_{date}.log
+2026-02-02 16:44:16 [INFO] [conftest] [conftest] 即将创建 driver，platform='web'
+2026-02-02 16:44:16 [INFO] [core.driver_factory] [DriverFactory] 当前平台: 'web'
+2026-02-02 16:44:16 [INFO] [core.driver_manager] [DriverManager] 使用指定 chromedriver: C:\Users\Administrator\PycharmProjects\ui_auto_test\bin\drivers\chromedriver.exe
+2026-02-02 16:44:17 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:44:17 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:44:17 [INFO] [LoginPage] 打开首页
+2026-02-02 16:44:17 [INFO] [LoginPage] 打开 URL: http://192.168.1.20:31180/ai/
+2026-02-02 16:44:20 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:44:20 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164420.png
+2026-02-02 16:44:21 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:44:21 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:44:21 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:44:21 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164421.png
+2026-02-02 16:44:21 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:44:21 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:44:21 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:44:21 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164421.png
+2026-02-02 16:44:21 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:44:21 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:44:21 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:44:21 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164421.png
+2026-02-02 16:44:21 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:44:21 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:44:21 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:44:22 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164421.png
+2026-02-02 16:44:22 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:44:22 [INFO] [LoginPage] 开始登录流程: 17111111114
+2026-02-02 16:44:22 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:44:22 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:44:22 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164422.png
+2026-02-02 16:44:22 [ERROR] [LoginPage] 登录流程异常: too many values to unpack (expected 2)
+2026-02-02 16:44:22 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_error_20260202_164422.png
+2026-02-02 16:44:22 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:44:22 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:44:22 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:44:22 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164422.png
+2026-02-02 16:44:23 [INFO] [conftest] [conftest] 测试结束，准备退出 driver
+2026-02-02 16:44:25 [INFO] [core.driver_factory] [DriverFactory] Driver 已正常退出
+2026-02-02 16:45:38 [INFO] [root] 日志系统初始化完成: level=INFO, to_console=True, to_file=True, file_pattern=logs/ui_test_{date}.log
+2026-02-02 16:45:39 [INFO] [conftest] [conftest] 即将创建 driver，platform='web'
+2026-02-02 16:45:39 [INFO] [core.driver_factory] [DriverFactory] 当前平台: 'web'
+2026-02-02 16:45:39 [INFO] [core.driver_manager] [DriverManager] 使用指定 chromedriver: C:\Users\Administrator\PycharmProjects\ui_auto_test\bin\drivers\chromedriver.exe
+2026-02-02 16:45:40 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:45:40 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:45:40 [INFO] [LoginPage] 打开首页
+2026-02-02 16:45:40 [INFO] [LoginPage] 打开 URL: http://192.168.1.20:31180/ai/
+2026-02-02 16:45:46 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:45:46 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164546.png
+2026-02-02 16:45:46 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:45:46 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:45:49 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:45:49 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164549.png
+2026-02-02 16:45:49 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:45:49 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:45:52 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:45:52 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164552.png
+2026-02-02 16:45:52 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:45:52 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:45:55 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:45:56 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164555.png
+2026-02-02 16:45:56 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:45:56 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:45:59 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:45:59 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164559.png
+2026-02-02 16:45:59 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:45:59 [INFO] [LoginPage] 开始登录流程: 17111111114
+2026-02-02 16:45:59 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:46:02 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:46:02 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164602.png
+2026-02-02 16:46:02 [ERROR] [LoginPage] 登录流程异常: too many values to unpack (expected 2)
+2026-02-02 16:46:02 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_error_20260202_164602.png
+2026-02-02 16:46:03 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 16:46:03 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 16:46:06 [ERROR] [LoginPage] 点击登录入口失败: too many values to unpack (expected 2)
+2026-02-02 16:46:06 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_164606.png
+2026-02-02 16:46:06 [INFO] [conftest] [conftest] 测试结束，准备退出 driver
+2026-02-02 16:46:08 [INFO] [core.driver_factory] [DriverFactory] Driver 已正常退出
+2026-02-02 17:53:16 [INFO] [root] 日志系统初始化完成: level=INFO, to_console=True, to_file=True, file_pattern=logs/ui_test_{date}.log
+2026-02-02 17:53:16 [INFO] [conftest] [conftest] 即将创建 driver，platform='web'
+2026-02-02 17:53:16 [INFO] [core.driver_factory] [DriverFactory] 当前平台: 'web'
+2026-02-02 17:53:16 [INFO] [core.driver_manager] [DriverManager] 使用指定 chromedriver: C:\Users\Administrator\PycharmProjects\ui_auto_test\bin\drivers\chromedriver.exe
+2026-02-02 17:53:17 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 17:53:17 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 17:53:17 [INFO] [LoginPage] 打开首页
+2026-02-02 17:53:17 [INFO] [LoginPage] 打开 URL: http://192.168.1.20:31180/ai/
+2026-02-02 17:53:23 [INFO] [LoginPage] 点击登录入口按钮
+2026-02-02 17:53:26 [INFO] [LoginPage] 点击元素: ('xpath', '/html/body/div[7]/div/div/div/div/div[2]/div/div[1]/div[2]'), timeout=10
+2026-02-02 17:53:26 [INFO] [LoginPage] 切换到账号登录标签
+2026-02-02 17:53:28 [INFO] [LoginPage] 输入用户名密码: 17111111114
+2026-02-02 17:53:28 [INFO] [LoginPage] 输入文本: locator=('xpath', '/html/body/div[7]/div/div/div/div/div[2]/div/form/div[1]/div/div/div/input'), text='17111111114'
+2026-02-02 17:53:28 [INFO] [LoginPage] 输入文本: locator=('xpath', '/html/body/div[7]/div/div/div/div/div[2]/div/form/div[2]/div/div/div/input'), text='caotuli8'
+2026-02-02 17:53:28 [INFO] [LoginPage] 点击元素: ('xpath', '/html/body/div[7]/div/div/div/div/div[2]/div/label/span[1]/span'), timeout=10
+2026-02-02 17:53:28 [INFO] [LoginPage] 勾选同意协议
+2026-02-02 17:53:28 [INFO] [LoginPage] 点击登录按钮
+2026-02-02 17:53:28 [INFO] [LoginPage] 点击元素: ('xpath', '/html/body/div[7]/div/div/div/div/div[2]/div/button'), timeout=10
+2026-02-02 17:53:30 [INFO] [LoginPage] 开始处理滑动验证码
+2026-02-02 17:53:30 [INFO] [utils.slider_solver] [DEBUG] edge_match_score = 0.25676241517066956
+2026-02-02 17:53:30 [INFO] [utils.slider_solver] 计算得到原始偏移量: 245px
+2026-02-02 17:53:31 [INFO] [utils.slider_solver] 快速滑动完成：移动距离 148px
+2026-02-02 17:53:32 [INFO] [LoginPage] ✅ 验证码解决成功
+2026-02-02 17:53:37 [INFO] [LoginPage] 检测到用户元素，登录成功: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/div[4]/div[1]/div[3]/span')
+2026-02-02 17:53:37 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 17:53:37 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 17:53:51 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef74c8fe
+	0x7ff6ef74cc0c
+	0x7ff6ef79d7a7
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 17:53:51 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260202_175351.png
+2026-02-02 17:53:51 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef74c8fe
+	0x7ff6ef74cc0c
+	0x7ff6ef79d7a7
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 17:53:51 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_175351.png
+2026-02-02 17:53:52 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 17:53:52 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 17:54:05 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef74c8fe
+	0x7ff6ef74cc0c
+	0x7ff6ef79d7a7
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 17:54:05 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260202_175405.png
+2026-02-02 17:54:05 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef74c8fe
+	0x7ff6ef74cc0c
+	0x7ff6ef79d7a7
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 17:54:06 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_175405.png
+2026-02-02 17:54:06 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 17:54:06 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 17:54:19 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef74c8fe
+	0x7ff6ef74cc0c
+	0x7ff6ef79d7a7
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 17:54:19 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260202_175419.png
+2026-02-02 17:54:20 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef74c8fe
+	0x7ff6ef74cc0c
+	0x7ff6ef79d7a7
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 17:54:20 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_175420.png
+2026-02-02 17:54:20 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 17:54:20 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 17:54:33 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef74c8fe
+	0x7ff6ef74cc0c
+	0x7ff6ef79d7a7
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 17:54:34 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260202_175433.png
+2026-02-02 17:54:34 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef74c8fe
+	0x7ff6ef74cc0c
+	0x7ff6ef79d7a7
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 17:54:34 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_175434.png
+2026-02-02 17:54:34 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 17:54:34 [INFO] [LoginPage] 开始登录流程: 17111111114
+2026-02-02 17:54:34 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 17:54:48 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef74c8fe
+	0x7ff6ef74cc0c
+	0x7ff6ef79d7a7
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 17:54:48 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260202_175448.png
+2026-02-02 17:54:48 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef74c8fe
+	0x7ff6ef74cc0c
+	0x7ff6ef79d7a7
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 17:54:48 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_175448.png
+2026-02-02 17:54:48 [ERROR] [LoginPage] 登录流程异常: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef74c8fe
+	0x7ff6ef74cc0c
+	0x7ff6ef79d7a7
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 17:54:48 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_error_20260202_175448.png
+2026-02-02 17:54:49 [INFO] [LoginPage] LoginPage 初始化完成
+2026-02-02 17:54:49 [INFO] [LoginPage] 打开登录弹窗
+2026-02-02 17:55:02 [ERROR] [LoginPage] 查找元素失败: ('xpath', '/html/body/div[13]/div/section/section/header/div[1]/div[2]/button'), 错误: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef74c8fe
+	0x7ff6ef74cc0c
+	0x7ff6ef79d7a7
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 17:55:02 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\find_failed_20260202_175502.png
+2026-02-02 17:55:02 [ERROR] [LoginPage] 点击登录入口失败: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6ef953b05
+	0x7ff6ef953b60
+	0x7ff6ef6f126d
+	0x7ff6ef74c8fe
+	0x7ff6ef74cc0c
+	0x7ff6ef79d7a7
+	0x7ff6ef79a30c
+	0x7ff6ef73d10c
+	0x7ff6ef73e053
+	0x7ff6efc2b0e0
+	0x7ff6efc2549d
+	0x7ff6efc4666a
+	0x7ff6ef96f925
+	0x7ff6ef97838c
+	0x7ff6ef95cdd4
+	0x7ff6ef95cf86
+	0x7ff6ef9432b7
+	0x7ffa70bd7344
+	0x7ffa70da26b1
+
+2026-02-02 17:55:02 [INFO] [LoginPage] 截图已保存: C:\Users\Administrator\PycharmProjects\ui_auto_test\reports\screenshots\login_entry_failed_20260202_175502.png
+2026-02-02 17:55:03 [INFO] [conftest] [conftest] 测试结束，准备退出 driver
+2026-02-02 17:55:05 [INFO] [core.driver_factory] [DriverFactory] Driver 已正常退出

@@ -1,0 +1,48 @@
+dev:
+  appium_server: "http://127.0.0.1:4723/wd/hub"
+  # 通用 capabilities
+  common_capabilities:
+    platformName: "Android"
+    automationName: "UiAutomator2"
+    noReset: true
+    newCommandTimeout: 300
+
+  # 默认设备配置（可用于单设备运行）
+  default_device:
+    deviceName: "Android Emulator"
+    udid: "emulator-5554"
+    platformVersion: "13"
+    appPackage: "com.example.dev"
+    appActivity: "com.example.dev.MainActivity"
+
+  # 多设备列表（如果需要并发、多机运行）
+  devices:
+    - name: "emulator_1"
+      deviceName: "Android Emulator 1"
+      udid: "emulator-5554"
+      platformVersion: "13"
+      appPackage: "com.example.dev"
+      appActivity: "com.example.dev.MainActivity"
+    - name: "real_device_1"
+      deviceName: "Xiaomi 12"
+      udid: "abcd1234"
+      platformVersion: "14"
+      appPackage: "com.example.dev"
+      appActivity: "com.example.dev.MainActivity"
+
+test:
+  appium_server: "http://127.0.0.1:4723/wd/hub"
+  common_capabilities:
+    platformName: "Android"
+    automationName: "UiAutomator2"
+    noReset: false
+    newCommandTimeout: 300
+
+  default_device:
+    deviceName: "Android Emulator"
+    udid: "emulator-5554"
+    platformVersion: "13"
+    appPackage: "com.example.test"
+    appActivity: "com.example.test.MainActivity"
+
+  devices: []

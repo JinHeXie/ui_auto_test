@@ -1,0 +1,15 @@
+# 当前运行的平台：web / android / ios
+platform: web
+
+# 当前环境：dev / test / prod
+env: test
+
+# 日志相关配置（后续 logger 模块使用）
+log:
+  level: INFO              # 日志级别：DEBUG / INFO / WARNING / ERROR
+  to_console: true         # 是否输出到控制台
+  to_file: true            # 是否输出到文件
+  file_name_pattern: "logs/ui_test_{date}.log"  # 支持 {date} 占位符
+  max_size_mb: 10          # 单个日志文件最大大小
+  backup_count: 5          # 最多保留多少个历史日志文件
+
