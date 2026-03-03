@@ -13,7 +13,7 @@ dev:
   window_size: "1920,1080"
 
 test:
-  base_url: "http://10.1.10.12:31180/ai/"
+  base_url: "http://*******/ai/"
   browser: "chrome"
   implicit_wait: 5
   page_load_timeout: 30
@@ -35,4 +35,5 @@ prod:
   driver_path: ""
   headless: true
   window_size: "1920,1080"
+
 
