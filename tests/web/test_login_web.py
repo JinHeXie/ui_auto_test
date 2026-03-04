@@ -1,8 +1,7 @@
-# tests/web/test_login_web.py（修正后）
+# tests/web/test_login_web.py (修改后)
 """
-Web 登录用例 - 适配弹窗登录和验证码处理
+Web 登录用例 - 使用分层 fixture 架构
 """
-
 from __future__ import annotations
 
 import pytest
@@ -21,28 +20,25 @@ _invalid_cases = _login_data["invalid"]
 @allure.epic("Web UI 自动化")
 @allure.feature("登录模块")
 class TestWebLogin:
-    """登录测试用例 - 适配弹窗登录"""
+    """登录测试用例 - 使用 Web 专属 fixture"""
 
     @allure.story("登录成功")
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.tag("smoke", "regression")
-    def test_login_success(self, driver):
-        """登录成功用例 - 适配弹窗登录"""
-        login_page = LoginPage(driver)
+    def test_login_success(self, login_page):
+        """
+        登录成功用例
 
-        with allure.step("1. 打开登录弹窗"):
-            login_page.open_login_modal()
-            allure.attach(
-                driver.get_screenshot_as_png(),
-                name="login_modal_opened",
-                attachment_type=allure.attachment_type.PNG
-            )
+        使用 login_page fixture，已自动打开登录弹窗
+        测试结束后会自动清理状态
+        """
+        driver = login_page.driver  # 获取 driver 用于截图
 
         with allure.step("2. 输入正确的用户名和密码"):
-            username = _valid_data["username"]
-            password = _valid_data["password"]
-
-            login_page.enter_credentials(username, password)
+            login_page.enter_credentials(
+                _valid_data["username"],
+                _valid_data["password"]
+            )
             login_page.check_agreement()
 
             allure.attach(
@@ -91,17 +87,21 @@ class TestWebLogin:
     )
     def test_login_fail(
             self,
-            driver,
+            login_page,
             case_name: str,
             username: str,
             password: str,
             expected_error: str,
     ):
-        """登录失败用例（数据驱动）"""
-        login_page = LoginPage(driver)
+        """
+        登录失败用例（数据驱动）
 
-        with allure.step(f"[{case_name}] 打开登录弹窗"):
-            login_page.open_login_modal()
+        每个参数化测试都会：
+        1. 使用独立的 login_page fixture
+        2. 自动清理上一条用例的状态
+        3. 从干净的登录弹窗开始测试
+        """
+        driver = login_page.driver
 
         with allure.step(f"[{case_name}] 输入用户名和密码"):
             login_page.enter_credentials(username, password)
@@ -141,9 +141,9 @@ class TestWebLogin:
 
     @allure.story("使用集成登录方法")
     @allure.severity(allure.severity_level.CRITICAL)
-    def test_integrated_login_method(self, driver):
-        """测试集成登录方法"""
-        login_page = LoginPage(driver)
+    def test_integrated_login_method(self, web_driver):
+        """测试集成登录方法 - 使用 web_driver fixture"""
+        login_page = LoginPage(web_driver)
 
         with allure.step("使用集成登录方法"):
             success = login_page.login(
@@ -153,26 +153,42 @@ class TestWebLogin:
             )
 
             allure.attach(
-                driver.get_screenshot_as_png(),
+                web_driver.get_screenshot_as_png(),
                 name="integrated_login_result",
                 attachment_type=allure.attachment_type.PNG
             )
 
             assert success, "集成登录方法失败"
 
+    @allure.story("已登录会话测试")
+    def test_dashboard_with_login(self, logged_in_session):
+        """测试登录后的功能 - 使用 logged_in_session fixture"""
+        # 这里已经是登录状态，可以直接测试需要登录后才能访问的功能
+        logged_in_session.get("https://example.com/dashboard")
+        time.sleep(2)
+
+        # 示例：断言某个元素存在
+        # assert "Dashboard" in logged_in_session.title
+
+        allure.attach(
+            logged_in_session.get_screenshot_as_png(),
+            name="dashboard_view",
+            attachment_type=allure.attachment_type.PNG
+        )
+
     @allure.story("验证码可见性检查")
-    def test_captcha_visibility(self, driver):
+    def test_captcha_visibility(self, login_page):
         """测试验证码是否会出现"""
-        login_page = LoginPage(driver)
+        driver = login_page.driver
 
-        with allure.step("1. 打开登录弹窗"):
-            login_page.open_login_modal()
-
-        with allure.step("2. 输入账号密码"):
-            login_page.enter_credentials(_valid_data["username"], _valid_data["password"])
+        with allure.step("1. 输入账号密码"):
+            login_page.enter_credentials(
+                _valid_data["username"],
+                _valid_data["password"]
+            )
             login_page.check_agreement()
 
-        with allure.step("3. 点击登录触发验证码"):
+        with allure.step("2. 点击登录触发验证码"):
             login_page.click_login_button()
             time.sleep(2)
 
@@ -182,7 +198,7 @@ class TestWebLogin:
                 attachment_type=allure.attachment_type.PNG
             )
 
-        with allure.step("4. 检查验证码是否可见"):
+        with allure.step("3. 检查验证码是否可见"):
             is_visible = login_page.is_captcha_visible(timeout=5)
 
             if is_visible:
